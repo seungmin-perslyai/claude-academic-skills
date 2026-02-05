@@ -3,16 +3,12 @@
   "version": "0.1.0",
   "description": "Marketplace for academic writing and review skills for Claude Code",
   "owner": {
-    "name": "seungmin-perslyai",
-    "url": "https://github.com/seungmin-perslyai"
+    "name": "Academic Skills"
   },
   "plugins": [
     {
       "name": "counterargument-plugin",
-      "source": {
-        "type": "local",
-        "path": "."
-      }
+      "source": "./plugins/counterargument-plugin"
     }
   ]
 }
