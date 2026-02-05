@@ -1,0 +1,7 @@
+{
+  "name": "claude-academic-skills",
+  "description": "Marketplace for academic writing and review skills for Claude Code",
+  "plugins": [
+    "counterargument-plugin"
+  ]
+}
