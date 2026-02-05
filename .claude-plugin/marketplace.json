@@ -9,7 +9,10 @@
   "plugins": [
     {
       "name": "counterargument-plugin",
-      "path": ".claude-plugin"
+      "source": {
+        "type": "local",
+        "path": "."
+      }
     }
   ]
 }
